@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Figtree, Nunito_Sans } from "next/font/google"
 
+import Header from "@/components/Header"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
@@ -25,7 +26,10 @@ export default function RootLayout({
       className={cn("antialiased", fontMono.variable, "font-sans", figtree.variable, nunitoSansHeading.variable)}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Header/>
+          {children}
+          </ThemeProvider>
       </body>
     </html>
   )
