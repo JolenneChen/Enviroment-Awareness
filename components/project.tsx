@@ -57,7 +57,7 @@ const Project = () => {
     return (
         <div className="relative bg-gray-100 p-12 ">
             <div className="text-black w-full pb-6" >
-                <h1 className=" text-4xl">Current Initiatives</h1>
+                <h1 className=" text-4xl font-serif">Current Initiatives</h1>
                 <p className="max-w-xl py-5">Focused, strategic campaigns designed to adress critical enviromental vulnerabilities with scientific precision.</p>
             </div>
             <div className="grid lg:grid-cols-3 gap-15">
