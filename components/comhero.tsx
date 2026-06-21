@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const Comhero = () => {
     return (
-        <div className=" w-full p-0 m-0 h-[calc(100vh-64px)] bg-amber-600">
+        <div className=" w-full p-0 m-0 h-[calc(100vh-64px)] bg-[#daece8]">
             <div className="flex flex-col justify-center items-center object-cover">
                 <div className="flex flex-col justify-center items-center h-screen object-cover ">
                     <Badge className=" bg-amber-300 text-black ">A Global Network for Local Change</Badge>
