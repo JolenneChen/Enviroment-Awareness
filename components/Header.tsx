@@ -11,7 +11,7 @@ const Header = () =>{
                     <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="#">
                     Resources
                     </Link>
-                    <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="#">
+                    <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="/community">
                     Community
                     </Link>
                     <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="#">

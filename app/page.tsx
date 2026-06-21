@@ -13,7 +13,6 @@ export default function Page() {
       <Impact/>
       <Join/>
       <Footer/>
-
     </div>
   )
 }
