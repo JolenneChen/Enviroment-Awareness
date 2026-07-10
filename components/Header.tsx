@@ -8,7 +8,7 @@ const Header = () =>{
                 EcoEcho
                 </Link>
                 <div className="hidden md:flex gap-6 items-center justify-center text-[#414846]">
-                    <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="/homeresources">
+                    <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="/">
                     Resources
                     </Link>
                     <Link className="font-body-md text-body-md hover:text-[#01261f] transition-colors" href ="/community">

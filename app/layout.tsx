@@ -4,6 +4,7 @@ import Header from "@/components/Header"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
+import Footer from "@/components/Footer"
 
 const nunitoSansHeading = Nunito_Sans({subsets:['latin'],variable:'--font-heading'});
 
@@ -29,7 +30,9 @@ export default function RootLayout({
         <ThemeProvider>
           <Header/>
           {children}
+          <Footer/>
           </ThemeProvider>
+
       </body>
     </html>
   )
