@@ -63,7 +63,7 @@ return (
     <div className='justify-center text-center w-full p-20 bg-[#e4eeeb]'>
         <h1 className='text-5xl font-serif italic'>Community Stories</h1>
         <p className='py-5'>Voices from the frontlines of the global Echo network, sharing impact and inspiration. </p>
-        <div className="grid lg:grid-cols-3 justify-center text-center pt-10 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-5 justify-center text-center pt-10 max-w-6xl mx-auto">
             {stories.map(item => (
                 <StoriesInfo params={item} key={item.id} />
             ))}

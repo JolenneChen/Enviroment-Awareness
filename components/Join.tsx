@@ -6,7 +6,7 @@ const Join = () => {
     return (
         <div className='justify-center items-center p-14 py-16 w-full'>
             <div className="bg-green-950 p-12 text-center rounded-3xl">
-                <h1 className='text-gray-500 text-2xl font-serif'>Join the Collective Effort</h1>
+                <h1 className='text-white text-2xl font-serif'>Join the Collective Effort</h1>
                 <p className='text-white max-w-xl mx-auto py-4'>Subscribe to our editorial newsletter for deep-dives into enviromental science, policy updates, and immediate actions alerts.</p>
                 <div className="md:max-w-md mx-auto md:flex  gap-3 pt-5">
                     <Field className='md:min-w-4xs '>
