@@ -12,7 +12,7 @@ const Join = () => {
                     <Field className='md:min-w-4xs '>
                         <Input id="name" autoComplete="off" placeholder="Enter your proffesional email " className='py-6 bg-white ' />
                     </Field>
-                    <Button className='py-6 min-w-5xs'>Subscribe</Button>
+                    <Button className='py-6 min-w-5xs bg-[#829480] rounded-2xl'>Subscribe</Button>
                 </div>
             </div>
         </div>

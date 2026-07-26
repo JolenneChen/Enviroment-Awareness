@@ -15,7 +15,7 @@ export const ProjectInfo = ({params}: {params:ProjectProps}) => {
         <>
             <div className="grid grid-cols-1 max-w-xl bg-white rounded-xl overflow-hidden pb-2">
                 <Image src={params.image} width={600} height={600} alt="Project" className="relative max-h-72" ></Image>
-                <Badge className="absolute m-3">{params.topic}</Badge>
+                <Badge className="absolute m-3 bg-[#3b5c3b] text-white">{params.topic}</Badge>
                 <div className="px-5 py-3">
                     <h1 className="font-bold text-xl pb-2">{params.title}</h1>
                     <p className="font-extralight">{params.description}</p>
