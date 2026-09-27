@@ -8,7 +8,7 @@ const Comhero = () => {
             <div className="flex flex-col justify-center items-center object-cover">
                 <div className="flex flex-col justify-center items-center h-screen object-cover ">
                     <Badge className=" bg-amber-300 text-black">A Global Network for Local Change</Badge>
-                    <h1 className='text-5xl font-serif pt-5  text-center md:text-left'>Collective action for a </h1>
+                    <h1 className='text-5xl font-serif pt-5  text-center md:text-left text-black'>Collective action for a </h1>
                     <h1 className="text-5xl font-bold text-black max-w-3xl text-center">regenerative future.</h1>
                     <p className="text-black max-w-xl text-center px-6 py-5">EcoEcho is more than a platform; it&apos;s a global ecosystem of restorationists, activists, and thinkers working together to heal the planet.
                     </p>

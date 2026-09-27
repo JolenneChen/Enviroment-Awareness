@@ -3,7 +3,7 @@ import React from 'react'
 
 const Multiply = () => {
   return (
-    <div className='text-center bg-[#dde9e4] p-25'>
+    <div className='text-center bg-[#dde9e4] p-25 text-black'>
         <h1 className='text-4xl font-serif'>Ready to multiply your impact?</h1>
         <p className='text-black py-8 font-light text-[15px] '>Join 500,000+ partners dedicated to cooling the planet.</p>
         <div className=" grid grid-cols-2 max-w-xl mx-auto">

@@ -14,19 +14,19 @@ export const StoriesInfo = ({ params }: { params: StoriesProps }) => {
     return (
         <>
             <div className="grid grid-cols-1 min-w-xs mx-auto bg-white rounded-2xl justify-center items-center">
-                <QuotesIcon size={32} />
+                <QuotesIcon size={32} className="text-black" />
                 <div className="text-center p-5">
-                    <p className='max-w-2xs mx-auto text-2xl font-serif '>{params.story}</p>
+                    <p className='max-w-2xs mx-auto text-2xl font-serif text-black'>{params.story}</p>
                 </div>
 
-                <hr />
+                <hr className="border-black" />
                 <div className="p-5 flex">
                     <div className="">
                         <Image src={params.image} width={50} height={600} alt="Project" className="relative max-h-72 rounded-full" ></Image>
                     </div>
                     <div className="grid grid-cols-1 text-left pl-3">
-                        <h1>{params.name}</h1>
-                        <p>{params.title}</p>
+                        <h1 className="text-black">{params.name}</h1>
+                        <p className="text-black">{params.title}</p>
                     </div>
 
                 </div>
@@ -34,7 +34,7 @@ export const StoriesInfo = ({ params }: { params: StoriesProps }) => {
         </>
     )
 }
-const Stories = () => {
+const Testimonials = () => {
     const stories: StoriesProps[] = [
         {
             id: 1,
@@ -61,8 +61,8 @@ const Stories = () => {
     
 return (
     <div className='justify-center text-center w-full p-20 bg-[#e4eeeb]'>
-        <h1 className='text-5xl font-serif italic'>Community Stories</h1>
-        <p className='py-5'>Voices from the frontlines of the global Echo network, sharing impact and inspiration. </p>
+        <h1 className='text-5xl font-serif italic text-black'>Top Enviromentalist</h1>
+        <p className='py-5 text-black'>Voices from the frontlines of the global Echo network, sharing impact and inspiration. </p>
         <div className="grid lg:grid-cols-3 gap-5 justify-center text-center pt-10 max-w-6xl mx-auto">
             {stories.map(item => (
                 <StoriesInfo params={item} key={item.id} />
@@ -73,4 +73,4 @@ return (
 )
 }
 
-export default Stories
+export default Testimonials

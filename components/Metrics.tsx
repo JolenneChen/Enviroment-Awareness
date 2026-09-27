@@ -3,7 +3,7 @@ import { TreeIcon, WindIcon , DropIcon , UsersThreeIcon } from '@phosphor-icons/
 
 const Metrics = () => {
   return (
-    <div className='bg-[#dae7e4] p-12'>
+    <div className='bg-[#dae7e4] p-12 text-black'>
         <p className='text-2xl font-serif'>Live Impact Metrics</p>
         <p className='text-xl font-light'>Real-time data from our global restoration network, verified by satellite telemetry.</p>
         <div className="grid grid-cols-4 gap-10 max-w-7xl mx-auto py-12">

@@ -12,7 +12,7 @@ const Local = () => {
                     <Field className='min-w-4xs'>
                         <Input id="name" autoComplete="off" placeholder="Enter your proffesional email " className='py-8 bg-white rounded-3xl' />
                     </Field>
-                    <Button className='py-8 min-w-3xs rounded-3xl my-5 md:my-0 bg-[#abbbab]'>Subscribe</Button>
+                    <Button className='py-8 min-w-3xs rounded-3xl my-5 md:my-0 bg-[#abbbab] text-black'>Subscribe</Button>
                 </div>
             </div>
         </div>  

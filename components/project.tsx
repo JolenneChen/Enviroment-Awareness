@@ -17,11 +17,11 @@ export const ProjectInfo = ({params}: {params:ProjectProps}) => {
                 <Image src={params.image} width={600} height={600} alt="Project" className="relative max-h-72" ></Image>
                 <Badge className="absolute m-3 bg-[#3b5c3b] text-white">{params.topic}</Badge>
                 <div className="px-5 py-3">
-                    <h1 className="font-bold text-xl pb-2">{params.title}</h1>
-                    <p className="font-extralight">{params.description}</p>
+                    <h1 className="font-bold text-xl pb-2 text-black">{params.title}</h1>
+                    <p className="font-extralight text-black">{params.description}</p>
 
                     <div className="grid grid-cols-2 w-full pt-6">
-                        <p className="font-bold hover:underline cursor-pointer" >Read Report</p>
+                        <p className="font-bold hover:underline cursor-pointer text-black" >Read Report</p>
                         <Button className="bg-white text-black hover:bg-white justify-self-end"><ArrowRightIcon /></Button>
                     </div>
                 </div>
@@ -56,9 +56,9 @@ const Project = () => {
     ]
     return (
         <div className="relative bg-gray-100 p-12 ">
-            <div className="text-black w-full pb-6" >
-                <h1 className=" text-4xl font-serif">Current Initiatives</h1>
-                <p className="max-w-xl py-5">Focused, strategic campaigns designed to adress critical enviromental vulnerabilities with scientific precision.</p>
+            <div className=" w-full pb-6" >
+                <h1 className="text-4xl font-serif text-black">Current Initiatives</h1>
+                <p className="max-w-xl py-5 text-black">Focused, strategic campaigns designed to adress critical enviromental vulnerabilities with scientific precision.</p>
             </div>
             <div className="grid lg:grid-cols-3 gap-15">
                 {projects.map(item => (
